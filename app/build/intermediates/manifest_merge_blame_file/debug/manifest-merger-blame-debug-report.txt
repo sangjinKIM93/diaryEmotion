@@ -1,0 +1,492 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.emotiondiary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:10:5-65
+16-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:10:22-62
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:12:5-79
+17-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:12:22-76
+18
+19    <application
+19-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:12:5-86:19
+20        android:name="androidx.multidex.MultiDexApplication"
+21        android:allowBackup="false"
+21-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:13:9-36
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\241b89e013db22b59a4d22b3f2fa0913\core-1.0.1\AndroidManifest.xml:22:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:14:9-43
+25        android:label="감정 일기"
+25-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:15:9-30
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:16:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:17:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme"
+29-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:18:9-40
+30        android:usesCleartextTraffic="true" >
+30-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:19:9-44
+31        <activity android:name="com.example.emotiondiary.RegisterNew" />
+31-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:20:9-82
+31-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:20:19-70
+32        <activity android:name="com.example.emotiondiary.LoginActivity" />
+32-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:21:9-75
+32-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:21:19-72
+33        <activity android:name="com.example.emotiondiary.MainActivity" />
+33-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:22:9-74
+33-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:22:19-71
+34        <activity android:name="com.example.emotiondiary.RegisterActivity" />
+34-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:23:9-78
+34-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:23:19-75
+35        <activity android:name="com.example.emotiondiary.MusicListActivity" />
+35-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:24:9-79
+35-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:24:19-76
+36        <activity android:name="com.example.emotiondiary.MusicPlayerActivity" />
+36-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:25:9-81
+36-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:25:19-78
+37        <activity android:name="com.example.emotiondiary.DiaryListActivity" />
+37-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:26:9-79
+37-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:26:19-76
+38        <activity android:name="com.example.emotiondiary.DiaryWriteActivity" />
+38-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:27:9-80
+38-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:27:19-77
+39        <activity android:name="com.example.emotiondiary.AlarmActivity" />
+39-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:28:9-75
+39-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:28:19-72
+40        <activity
+40-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:29:9-31:55
+41            android:name="com.example.emotiondiary.MemoWriteActivity"
+41-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:30:13-70
+42            android:windowSoftInputMode="adjustPan" />
+42-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:31:13-52
+43        <activity android:name="com.example.emotiondiary.MemoListActivity" />
+43-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:32:9-78
+43-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:32:19-75
+44        <activity android:name="com.example.emotiondiary.MusicListRecyclerActivity" />
+44-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:33:9-87
+44-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:33:19-84
+45        <activity android:name="com.example.emotiondiary.ActivityOne" />
+45-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:34:9-73
+45-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:34:19-70
+46        <activity android:name="com.example.emotiondiary.ActivityTwo" />
+46-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:35:9-73
+46-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:35:19-70
+47        <activity android:name="com.example.emotiondiary.LoadingActivity" />
+47-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:36:9-77
+47-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:36:19-74
+48        <activity android:name="com.example.emotiondiary.PopupActivity" />
+48-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:37:9-75
+48-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:37:19-72
+49        <activity android:name="com.example.emotiondiary.OtherMemoActivity" />
+49-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:38:9-79
+49-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:38:19-76
+50        <activity android:name="com.example.emotiondiary.SplashActivity" />
+50-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:39:9-85
+50-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:39:19-73
+51        <activity android:name="com.example.emotiondiary.NewsActivity" />
+51-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:40:9-74
+51-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:40:19-71
+52
+53        <receiver android:name="com.example.emotiondiary.AlarmReceiver" />
+53-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:42:9-75
+53-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:42:19-72
+54        <receiver android:name="com.example.emotiondiary.DeviceBootReceiver" >
+54-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:43:9-47:20
+54-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:43:19-77
+55            <intent-filter>
+55-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:44:13-46:29
+56                <action android:name="android.intent.action.BOOT_COMPLETED" />
+56-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:45:17-79
+56-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:45:25-76
+57            </intent-filter>
+58        </receiver>
+59
+60        <activity android:name="com.example.emotiondiary.NewAlarmActivity" />
+60-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:49:9-78
+60-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:49:19-75
+61        <activity
+61-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:50:9-53:53
+62            android:name="com.example.emotiondiary.EmotionPopupActivity"
+62-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:51:13-73
+63            android:screenOrientation="portrait"
+63-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:52:13-49
+64            android:theme="@style/Theme.MyDialog" />
+64-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:53:13-50
+65        <activity
+65-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:54:9-57:53
+66            android:name="com.example.emotiondiary.SadPopupActivity"
+66-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:55:13-69
+67            android:screenOrientation="portrait"
+67-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:56:13-49
+68            android:theme="@style/Theme.MyDialog" />
+68-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:57:13-50
+69        <activity
+69-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:58:9-61:53
+70            android:name="com.example.emotiondiary.HurtPopupActivity"
+70-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:59:13-70
+71            android:screenOrientation="portrait"
+71-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:60:13-49
+72            android:theme="@style/Theme.MyDialog" />
+72-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:61:13-50
+73        <activity
+73-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:62:9-65:53
+74            android:name="com.example.emotiondiary.AnxiousPopupActivity"
+74-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:63:13-73
+75            android:screenOrientation="portrait"
+75-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:64:13-49
+76            android:theme="@style/Theme.MyDialog" />
+76-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:65:13-50
+77        <activity
+77-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:66:9-69:53
+78            android:name="com.example.emotiondiary.HappyPopupActivity"
+78-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:67:13-71
+79            android:screenOrientation="portrait"
+79-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:68:13-49
+80            android:theme="@style/Theme.MyDialog" />
+80-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:69:13-50
+81        <activity
+81-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:70:9-73:53
+82            android:name="com.example.emotiondiary.EmbarrassedPopupActivity"
+82-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:71:13-77
+83            android:screenOrientation="portrait"
+83-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:72:13-49
+84            android:theme="@style/Theme.MyDialog" />
+84-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:73:13-50
+85        <activity android:name="com.example.emotiondiary.MyInfoActivity" />
+85-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:74:9-76
+85-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:74:19-73
+86        <activity android:name="com.example.emotiondiary.FirebaseLoginActivity" />
+86-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:75:9-92
+86-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:75:19-80
+87        <activity android:name="com.example.emotiondiary.ReadNewsActivity" />
+87-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:76:9-78
+87-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:76:19-75
+88        <activity android:name="com.example.emotiondiary.FireStoreTest" />
+88-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:77:9-84
+88-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:77:19-72
+89        <activity android:name="com.example.emotiondiary.RealtimeTest" />
+89-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:78:9-83
+89-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:78:19-71
+90        <activity android:name="com.example.emotiondiary.LoginNew" >
+90-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:79:9-85:20
+90-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:79:19-67
+91            <intent-filter>
+91-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:80:13-84:29
+92                <action android:name="android.intent.action.MAIN" />
+92-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:81:17-69
+92-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:81:25-66
+93
+94                <category android:name="android.intent.category.LAUNCHER" />
+94-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:83:17-77
+94-->C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:83:27-74
+95            </intent-filter>
+96        </activity>
+97
+98        <meta-data
+98-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:16:9-18:69
+99            android:name="com.google.android.gms.version"
+99-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:17:13-58
+100            android:value="@integer/google_play_services_version" />
+100-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:18:13-66
+101        <meta-data
+101-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:19:9-21:63
+102            android:name="com.facebook.sdk.ApplicationId"
+102-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:20:13-58
+103            android:value="@string/facebook_application_id" />
+103-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:21:13-60
+104
+105        <activity
+105-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:23:9-27:61
+106            android:name="com.firebase.ui.auth.KickoffActivity"
+106-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:24:13-64
+107            android:exported="false"
+107-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:25:13-37
+108            android:label=""
+108-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:26:13-29
+109            android:theme="@style/FirebaseUI.Transparent" />
+109-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:27:13-58
+110        <activity
+110-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:28:9-32:61
+111            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+111-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:29:13-76
+112            android:exported="false"
+112-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:30:13-37
+113            android:label=""
+113-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:31:13-29
+114            android:theme="@style/FirebaseUI.Transparent" />
+114-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:32:13-58
+115        <activity
+115-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:33:9-37:61
+116            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+116-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:34:13-86
+117            android:exported="false"
+117-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:35:13-37
+118            android:label=""
+118-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:36:13-29
+119            android:theme="@style/FirebaseUI.Transparent" />
+119-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:37:13-58
+120        <activity
+120-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:38:9-42:58
+121            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+121-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:39:13-81
+122            android:exported="false"
+122-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:40:13-37
+123            android:label="@string/fui_title_recover_password_activity"
+123-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:41:13-72
+124            android:windowSoftInputMode="adjustResize" />
+124-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:42:13-55
+125        <activity
+125-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:43:9-47:58
+126            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+126-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:44:13-71
+127            android:exported="false"
+127-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:45:13-37
+128            android:label="@string/fui_sign_in_default"
+128-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:46:13-56
+129            android:windowSoftInputMode="adjustResize" />
+129-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:47:13-55
+130        <activity
+130-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:48:9-52:77
+131            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+131-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:49:13-71
+132            android:exported="false"
+132-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:50:13-37
+133            android:label="@string/fui_sign_in_with_phone_number"
+133-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:51:13-66
+134            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+134-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:52:13-74
+135        <activity
+135-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:53:9-57:58
+136            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+136-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:54:13-76
+137            android:exported="false"
+137-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:55:13-37
+138            android:label="@string/fui_title_welcome_back_idp_prompt"
+138-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:56:13-70
+139            android:windowSoftInputMode="adjustResize" />
+139-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:57:13-55
+140        <activity
+140-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:58:9-62:58
+141            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+141-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:59:13-83
+142            android:exported="false"
+142-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:60:13-37
+143            android:label="@string/fui_title_welcome_back_password_prompt"
+143-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:61:13-75
+144            android:windowSoftInputMode="adjustResize" />
+144-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:62:13-55
+145        <activity
+145-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:63:9-67:58
+146            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+146-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:64:13-84
+147            android:exported="false"
+147-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:65:13-37
+148            android:label="@string/fui_title_welcome_back_password_prompt"
+148-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:66:13-75
+149            android:windowSoftInputMode="adjustResize" />
+149-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:67:13-55
+150        <activity
+150-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:68:9-73:58
+151            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+151-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:69:13-82
+152            android:exported="false"
+152-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:70:13-37
+153            android:label=""
+153-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:71:13-29
+154            android:theme="@style/FirebaseUI.Transparent"
+154-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:72:13-58
+155            android:windowSoftInputMode="adjustResize" />
+155-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:73:13-55
+156        <activity
+156-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:74:9-78:58
+157            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+157-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:75:13-88
+158            android:exported="false"
+158-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:76:13-37
+159            android:label="@string/fui_sign_in_default"
+159-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:77:13-56
+160            android:windowSoftInputMode="adjustResize" />
+160-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:78:13-55
+161        <activity
+161-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:79:9-82:65
+162            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+162-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:80:13-80
+163            android:exported="false"
+163-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:81:13-37
+164            android:label="@string/fui_default_toolbar_title" />
+164-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:82:13-62
+165        <activity
+165-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:83:9-87:48
+166            android:name="com.facebook.FacebookActivity"
+166-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:84:13-57
+167            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+167-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:85:13-96
+168            android:label="@string/app_name" />
+168-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:86:13-45
+169        <activity
+169-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:88:9-100:20
+170            android:name="com.facebook.CustomTabActivity"
+170-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:89:13-58
+171            android:exported="true" >
+171-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:90:13-36
+172            <intent-filter>
+172-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:92:13-99:29
+173                <action android:name="android.intent.action.VIEW" />
+173-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:93:17-69
+173-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:93:25-66
+174
+175                <category android:name="android.intent.category.DEFAULT" />
+175-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:95:17-76
+175-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:95:27-73
+176                <category android:name="android.intent.category.BROWSABLE" />
+176-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:96:17-78
+176-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:96:27-75
+177
+178                <data android:scheme="@string/facebook_login_protocol_scheme" />
+178-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:98:17-81
+178-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:98:23-78
+179            </intent-filter>
+180        </activity>
+181
+182        <provider
+182-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:102:9-106:38
+183            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+183-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:103:13-79
+184            android:authorities="com.example.emotiondiary.authuiinitprovider"
+184-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:104:13-70
+185            android:exported="false"
+185-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:105:13-37
+186            android:initOrder="90" />
+186-->[com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:106:13-35
+187
+188        <activity
+188-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:24:9-31:50
+189            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+189-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:25:13-85
+190            android:excludeFromRecents="true"
+190-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:26:13-46
+191            android:exported="true"
+191-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:27:13-36
+192            android:launchMode="singleTask"
+192-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:28:13-44
+193            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+193-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:29:13-102
+194            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+194-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:30:13-72
+195
+196        <service
+196-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:33:9-39:19
+197            android:name="com.google.firebase.components.ComponentDiscoveryService"
+197-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:34:13-84
+198            android:directBootAware="true"
+198-->[com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:14:13-43
+199            android:exported="false" >
+199-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:35:13-37
+200            <meta-data
+200-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:36:13-38:85
+201                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+201-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:37:17-109
+202                android:value="com.google.firebase.components.ComponentRegistrar" />
+202-->[com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:38:17-82
+203            <meta-data
+203-->[com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:20:13-22:85
+204                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+204-->[com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:21:17-111
+205                android:value="com.google.firebase.components.ComponentRegistrar" />
+205-->[com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:22:17-82
+206            <meta-data
+206-->[com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:32:13-34:85
+207                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+207-->[com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:33:17-109
+208                android:value="com.google.firebase.components.ComponentRegistrar" />
+208-->[com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:34:17-82
+209            <meta-data
+209-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+210                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+210-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+211                android:value="com.google.firebase.components.ComponentRegistrar" />
+211-->[com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+212        </service>
+213
+214        <activity
+214-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+215            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+215-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+216            android:excludeFromRecents="true"
+216-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+217            android:exported="false"
+217-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+218            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+218-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+219        <!--
+220            Service handling Google Sign-In user revocation. For apps that do not integrate with
+221            Google Sign-In, this service will never be started.
+222        -->
+223        <service
+223-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+224            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+224-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+225            android:exported="true"
+225-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+226            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+226-->[com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+227
+228        <activity
+228-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+229            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+229-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+230            android:exported="false"
+230-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+231            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+231-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+232
+233        <provider
+233-->[com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:17:9-21:39
+234            android:name="com.google.firebase.provider.FirebaseInitProvider"
+234-->[com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:18:13-77
+235            android:authorities="com.example.emotiondiary.firebaseinitprovider"
+235-->[com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:19:13-72
+236            android:exported="false"
+236-->[com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:20:13-37
+237            android:initOrder="100" />
+237-->[com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:21:13-36
+238        <provider
+238-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+239            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+239-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+240            android:authorities="com.example.emotiondiary.lifecycle-process"
+240-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+241            android:exported="false"
+241-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+242            android:multiprocess="true" />
+242-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+243    </application>
+244
+245</manifest>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearNews"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@drawable/z_edge">
+
+        <TextView
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/newsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="글 제목"
+            android:textStyle="bold"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/newsContent"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="content"
+            android:textSize="15dp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

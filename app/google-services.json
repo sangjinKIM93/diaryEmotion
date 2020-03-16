@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "551831730456",
+    "firebase_url": "https://meditation-app-4e1a7.firebaseio.com",
+    "project_id": "meditation-app-4e1a7",
+    "storage_bucket": "meditation-app-4e1a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551831730456:android:c8fd9bffa1f0c8e615466d",
+        "android_client_info": {
+          "package_name": "com.example.emotiondiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551831730456-6h0fhgoc97tj0297aepmp8cbfmiomems.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "ef778802566fc60550e7b88d800a69b09f61b795"
+          }
+        },
+        {
+          "client_id": "551831730456-uf263jp2a4jtemn67rd5vmkdggsjfom2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0a430LeaoG_7lDl86wlwlg7hZjX10y_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551831730456-uf263jp2a4jtemn67rd5vmkdggsjfom2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

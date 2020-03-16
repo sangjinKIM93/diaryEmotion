@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">551831730456-uf263jp2a4jtemn67rd5vmkdggsjfom2.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://meditation-app-4e1a7.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">551831730456</string>
+    <string name="google_api_key" translatable="false">AIzaSyA0a430LeaoG_7lDl86wlwlg7hZjX10y_A</string>
+    <string name="google_app_id" translatable="false">1:551831730456:android:c8fd9bffa1f0c8e615466d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA0a430LeaoG_7lDl86wlwlg7hZjX10y_A</string>
+    <string name="google_storage_bucket" translatable="false">meditation-app-4e1a7.appspot.com</string>
+    <string name="project_id" translatable="false">meditation-app-4e1a7</string>
+</resources>

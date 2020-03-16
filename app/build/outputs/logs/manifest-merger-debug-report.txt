@@ -1,0 +1,764 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:2:1-88:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\b01fa616267e41d2a474d96f41401ece\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:2:1-109:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\f5cee04665f635392fbc3a078a89e818\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\7e074805000bd50d7fc4046826aaa76c\jetified-library-1.4.2\AndroidManifest.xml:6:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\85e257a6babe96d3b8085bcd76499598\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\d42448a7adb3cd654a81cc83481fb847\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:17:1-42:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\55be576b1fb3cff6f9499b5d3d928b79\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:2:1-26:12
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\77ccedb24d04895978008e12f194cd5a\grpc-android-1.21.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android:flexbox:1.1.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a732a159f0c96c2cbac00b27ec3860de\flexbox-1.1.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ee18a7223cdc96ea41cb5641c6227a69\play-services-flags-17.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\c974b43e57f2ece2b339e0a98aaa403c\firebase-auth-interop-18.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\abf08d7f6ec0251989b0d5453b2d4da1\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\5f7b46bbef232ec32e50b4e56fb965c0\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\75185506230655574b8334cb643643f0\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\2df6ceac6dc87477afdc72c34d05e5ab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ab4d72fdc4263a03fc609ea1b14fbe0c\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\1cbd3b0b2910c69c982ed3cdc1333c00\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\9e4e6f5711ca759ffddddb3201840211\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\2841747ebb5d9d000bf685ae9bd5187a\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\33904a9952e04540992fd4e899a6e29f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\45739e064fd8ad2faa9c3686c49a0516\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\14df4581fa9ba8ef6228f8809aa8eeaa\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\d5cc3290d718e21788ec420e745c06fe\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\704f77bb835d112513bfb707984cbdc1\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ac681daf82c56bbcb32cd485fc064a28\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\793a97fec7a6dab603ab3ae8209f13cc\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\599a956fc5880721b736c36d7a2a90a9\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ab3a184af13a3a82dd474493bbfa3bb1\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a6c2f02f5bfac95e56aa3f49c83ac397\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\190ec68b3797b99e27d4d5621c313ff7\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\cea9d07eed335b7021facd428f08a0ed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a854b56cd163a08cc70affd1c719ec31\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\241b89e013db22b59a4d22b3f2fa0913\core-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\0150aea6f0427790b968ac16d0f01a76\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\25fdd493a672d7b5d446aa2af8c06677\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\7ee776e911b9a6c039d9400fa42dc1c1\lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\31820fea8d5074e894dcda880d2751ad\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\67688366c6a6c762e55784305fcbc09b\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\f5e5093a6d2ffb564f346d2769a020dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\c92e9c6549150a4bd8eb347f54ac769d\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ea6b3260a9a4d94d7ea9aaa5a327bd73\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ac265cfd5669b686a3cba2f45a6e36b7\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a258954b59e52ea64468e7c8b611841e\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\7fcbef39c4d63cdee011faaa088ab3cd\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\6df0cf79b64fd2c26bf8b27a76ce287b\firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\624e78f483605cfbc2e28baa5f862379\protolite-well-known-types-17.0.0\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:2:1-88:12
+	package
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:2:1-88:12
+		INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:2:1-88:12
+		INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:13:5-67
+MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:6:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:10:22-62
+application
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:12:5-86:19
+MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:15:5-107:19
+MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:15:5-107:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\f5cee04665f635392fbc3a078a89e818\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\f5cee04665f635392fbc3a078a89e818\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\d42448a7adb3cd654a81cc83481fb847\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\d42448a7adb3cd654a81cc83481fb847\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:29:5-37:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\c974b43e57f2ece2b339e0a98aaa403c\firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\c974b43e57f2ece2b339e0a98aaa403c\firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\75185506230655574b8334cb643643f0\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\75185506230655574b8334cb643643f0\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\2df6ceac6dc87477afdc72c34d05e5ab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\2df6ceac6dc87477afdc72c34d05e5ab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\241b89e013db22b59a4d22b3f2fa0913\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\241b89e013db22b59a4d22b3f2fa0913\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\0150aea6f0427790b968ac16d0f01a76\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\0150aea6f0427790b968ac16d0f01a76\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\241b89e013db22b59a4d22b3f2fa0913\core-1.0.1\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:15:9-30
+	android:roundIcon
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:13:9-36
+	android:theme
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:18:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:19:9-44
+activity#com.example.emotiondiary.RegisterNew
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:20:9-82
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:20:19-70
+activity#com.example.emotiondiary.LoginActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:21:9-75
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:21:19-72
+activity#com.example.emotiondiary.MainActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:22:9-74
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:22:19-71
+activity#com.example.emotiondiary.RegisterActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:23:9-78
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:23:19-75
+activity#com.example.emotiondiary.MusicListActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:24:9-79
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:24:19-76
+activity#com.example.emotiondiary.MusicPlayerActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:25:9-81
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:25:19-78
+activity#com.example.emotiondiary.DiaryListActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:26:9-79
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:26:19-76
+activity#com.example.emotiondiary.DiaryWriteActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:27:9-80
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:27:19-77
+activity#com.example.emotiondiary.AlarmActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:28:9-75
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:28:19-72
+activity#com.example.emotiondiary.MemoWriteActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:29:9-31:55
+	android:windowSoftInputMode
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:31:13-52
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:30:13-70
+activity#com.example.emotiondiary.MemoListActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:32:9-78
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:32:19-75
+activity#com.example.emotiondiary.MusicListRecyclerActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:33:9-87
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:33:19-84
+activity#com.example.emotiondiary.ActivityOne
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:34:9-73
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:34:19-70
+activity#com.example.emotiondiary.ActivityTwo
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:35:9-73
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:35:19-70
+activity#com.example.emotiondiary.LoadingActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:36:9-77
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:36:19-74
+activity#com.example.emotiondiary.PopupActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:37:9-75
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:37:19-72
+activity#com.example.emotiondiary.OtherMemoActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:38:9-79
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:38:19-76
+activity#com.example.emotiondiary.SplashActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:39:9-85
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:39:19-73
+activity#com.example.emotiondiary.NewsActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:40:9-74
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:40:19-71
+receiver#com.example.emotiondiary.AlarmReceiver
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:42:9-75
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:42:19-72
+receiver#com.example.emotiondiary.DeviceBootReceiver
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:43:9-47:20
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:43:19-77
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:44:13-46:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:45:25-76
+activity#com.example.emotiondiary.NewAlarmActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:49:9-78
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:49:19-75
+activity#com.example.emotiondiary.EmotionPopupActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:50:9-53:53
+	android:screenOrientation
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:52:13-49
+	android:theme
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:53:13-50
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:51:13-73
+activity#com.example.emotiondiary.SadPopupActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:54:9-57:53
+	android:screenOrientation
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:56:13-49
+	android:theme
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:57:13-50
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:55:13-69
+activity#com.example.emotiondiary.HurtPopupActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:58:9-61:53
+	android:screenOrientation
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:60:13-49
+	android:theme
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:61:13-50
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:59:13-70
+activity#com.example.emotiondiary.AnxiousPopupActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:62:9-65:53
+	android:screenOrientation
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:64:13-49
+	android:theme
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:65:13-50
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:63:13-73
+activity#com.example.emotiondiary.HappyPopupActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:66:9-69:53
+	android:screenOrientation
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:68:13-49
+	android:theme
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:69:13-50
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:67:13-71
+activity#com.example.emotiondiary.EmbarrassedPopupActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:70:9-73:53
+	android:screenOrientation
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:72:13-49
+	android:theme
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:73:13-50
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:71:13-77
+activity#com.example.emotiondiary.MyInfoActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:74:9-76
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:74:19-73
+activity#com.example.emotiondiary.FirebaseLoginActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:75:9-92
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:75:19-80
+activity#com.example.emotiondiary.ReadNewsActivity
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:76:9-78
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:76:19-75
+activity#com.example.emotiondiary.FireStoreTest
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:77:9-84
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:77:19-72
+activity#com.example.emotiondiary.RealtimeTest
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:78:9-83
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:78:19-71
+activity#com.example.emotiondiary.LoginNew
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:79:9-85:20
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:79:19-67
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:80:13-84:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:81:17-69
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:81:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml:83:27-74
+uses-sdk
+INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\b01fa616267e41d2a474d96f41401ece\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\b01fa616267e41d2a474d96f41401ece\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\f5cee04665f635392fbc3a078a89e818\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\f5cee04665f635392fbc3a078a89e818\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\7e074805000bd50d7fc4046826aaa76c\jetified-library-1.4.2\AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\7e074805000bd50d7fc4046826aaa76c\jetified-library-1.4.2\AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\85e257a6babe96d3b8085bcd76499598\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\85e257a6babe96d3b8085bcd76499598\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\6d16290c97378708d50718ed6ea0b1c0\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\d42448a7adb3cd654a81cc83481fb847\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\d42448a7adb3cd654a81cc83481fb847\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\55be576b1fb3cff6f9499b5d3d928b79\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\55be576b1fb3cff6f9499b5d3d928b79\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\77ccedb24d04895978008e12f194cd5a\grpc-android-1.21.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\77ccedb24d04895978008e12f194cd5a\grpc-android-1.21.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android:flexbox:1.1.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a732a159f0c96c2cbac00b27ec3860de\flexbox-1.1.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android:flexbox:1.1.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a732a159f0c96c2cbac00b27ec3860de\flexbox-1.1.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ee18a7223cdc96ea41cb5641c6227a69\play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ee18a7223cdc96ea41cb5641c6227a69\play-services-flags-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\c974b43e57f2ece2b339e0a98aaa403c\firebase-auth-interop-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\c974b43e57f2ece2b339e0a98aaa403c\firebase-auth-interop-18.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\abf08d7f6ec0251989b0d5453b2d4da1\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\abf08d7f6ec0251989b0d5453b2d4da1\jetified-play-services-auth-api-phone-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\5f7b46bbef232ec32e50b4e56fb965c0\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\5f7b46bbef232ec32e50b4e56fb965c0\jetified-play-services-auth-base-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\75185506230655574b8334cb643643f0\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\75185506230655574b8334cb643643f0\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\2df6ceac6dc87477afdc72c34d05e5ab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\2df6ceac6dc87477afdc72c34d05e5ab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ab4d72fdc4263a03fc609ea1b14fbe0c\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ab4d72fdc4263a03fc609ea1b14fbe0c\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\1cbd3b0b2910c69c982ed3cdc1333c00\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\1cbd3b0b2910c69c982ed3cdc1333c00\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\9e4e6f5711ca759ffddddb3201840211\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\9e4e6f5711ca759ffddddb3201840211\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\2841747ebb5d9d000bf685ae9bd5187a\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\2841747ebb5d9d000bf685ae9bd5187a\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\33904a9952e04540992fd4e899a6e29f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\33904a9952e04540992fd4e899a6e29f\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\45739e064fd8ad2faa9c3686c49a0516\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\45739e064fd8ad2faa9c3686c49a0516\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\14df4581fa9ba8ef6228f8809aa8eeaa\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\14df4581fa9ba8ef6228f8809aa8eeaa\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\d5cc3290d718e21788ec420e745c06fe\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\d5cc3290d718e21788ec420e745c06fe\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\704f77bb835d112513bfb707984cbdc1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\704f77bb835d112513bfb707984cbdc1\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ac681daf82c56bbcb32cd485fc064a28\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ac681daf82c56bbcb32cd485fc064a28\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\793a97fec7a6dab603ab3ae8209f13cc\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\793a97fec7a6dab603ab3ae8209f13cc\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\599a956fc5880721b736c36d7a2a90a9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\599a956fc5880721b736c36d7a2a90a9\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ab3a184af13a3a82dd474493bbfa3bb1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ab3a184af13a3a82dd474493bbfa3bb1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a6c2f02f5bfac95e56aa3f49c83ac397\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a6c2f02f5bfac95e56aa3f49c83ac397\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\190ec68b3797b99e27d4d5621c313ff7\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\190ec68b3797b99e27d4d5621c313ff7\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\cea9d07eed335b7021facd428f08a0ed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\cea9d07eed335b7021facd428f08a0ed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a854b56cd163a08cc70affd1c719ec31\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a854b56cd163a08cc70affd1c719ec31\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\241b89e013db22b59a4d22b3f2fa0913\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\241b89e013db22b59a4d22b3f2fa0913\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\0150aea6f0427790b968ac16d0f01a76\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\0150aea6f0427790b968ac16d0f01a76\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\25fdd493a672d7b5d446aa2af8c06677\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\25fdd493a672d7b5d446aa2af8c06677\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\91482f6452f8e2279fb096c6daca6c99\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\7ee776e911b9a6c039d9400fa42dc1c1\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\7ee776e911b9a6c039d9400fa42dc1c1\lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\31820fea8d5074e894dcda880d2751ad\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\31820fea8d5074e894dcda880d2751ad\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\67688366c6a6c762e55784305fcbc09b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\67688366c6a6c762e55784305fcbc09b\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\f5e5093a6d2ffb564f346d2769a020dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\f5e5093a6d2ffb564f346d2769a020dc\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\c92e9c6549150a4bd8eb347f54ac769d\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\c92e9c6549150a4bd8eb347f54ac769d\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ea6b3260a9a4d94d7ea9aaa5a327bd73\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ea6b3260a9a4d94d7ea9aaa5a327bd73\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ac265cfd5669b686a3cba2f45a6e36b7\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\ac265cfd5669b686a3cba2f45a6e36b7\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a258954b59e52ea64468e7c8b611841e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a258954b59e52ea64468e7c8b611841e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\7fcbef39c4d63cdee011faaa088ab3cd\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\7fcbef39c4d63cdee011faaa088ab3cd\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\e542a78b280a084fd48769af2f842423\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\6df0cf79b64fd2c26bf8b27a76ce287b\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\6df0cf79b64fd2c26bf8b27a76ce287b\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\624e78f483605cfbc2e28baa5f862379\protolite-well-known-types-17.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\624e78f483605cfbc2e28baa5f862379\protolite-well-known-types-17.0.0\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\sangjin kim\AndroidStudioProjects\EmotionDiary\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\77ccedb24d04895978008e12f194cd5a\grpc-android-1.21.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\77ccedb24d04895978008e12f194cd5a\grpc-android-1.21.0\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:12:22-76
+meta-data#com.google.android.gms.version
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:16:9-18:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\2df6ceac6dc87477afdc72c34d05e5ab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\2df6ceac6dc87477afdc72c34d05e5ab\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:18:13-66
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:17:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:19:9-21:63
+	android:value
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:21:13-60
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:20:13-58
+activity#com.firebase.ui.auth.KickoffActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:23:9-27:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:26:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:27:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:24:13-64
+activity#com.firebase.ui.auth.ui.idp.SingleSignInActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:28:9-32:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:31:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:30:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:29:13-76
+activity#com.firebase.ui.auth.ui.credentials.CredentialSaveActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:33:9-37:61
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:36:13-29
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:35:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:37:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:34:13-86
+activity#com.firebase.ui.auth.ui.email.RecoverPasswordActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:38:9-42:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:41:13-72
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:42:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:39:13-81
+activity#com.firebase.ui.auth.ui.email.EmailActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:43:9-47:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:46:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:47:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:44:13-71
+activity#com.firebase.ui.auth.ui.phone.PhoneActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:48:9-52:77
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:51:13-66
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:52:13-74
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:49:13-71
+activity#com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:53:9-57:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:56:13-70
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:57:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:54:13-76
+activity#com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:58:9-62:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:61:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:62:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:59:13-83
+activity#com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:63:9-67:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:66:13-75
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:67:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:64:13-84
+activity#com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:68:9-73:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:71:13-29
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:73:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:70:13-37
+	android:theme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:72:13-58
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:69:13-82
+activity#com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:74:9-78:58
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:77:13-56
+	android:windowSoftInputMode
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:78:13-55
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:75:13-88
+activity#com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:79:9-82:65
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:82:13-62
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:81:13-37
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:80:13-80
+activity#com.facebook.FacebookActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:83:9-87:48
+	android:label
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:86:13-45
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:87:13-45
+	android:configChanges
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:85:13-96
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:84:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:88:9-100:20
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:90:13-36
+	tools:ignore
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:91:13-45
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:89:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:92:13-99:29
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:93:17-69
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:93:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:95:17-76
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:95:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:96:17-78
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:96:27-75
+data
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:98:17-81
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:98:23-78
+provider#com.firebase.ui.auth.data.client.AuthUiInitProvider
+ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:102:9-106:38
+	android:authorities
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:104:13-70
+	android:exported
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:105:13-37
+	android:initOrder
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:106:13-35
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:4.3.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\38630c9b3b223dfc2a08b4aa173e15c9\jetified-firebase-ui-auth-4.3.1\AndroidManifest.xml:103:13-79
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:30:9-36:19
+MERGED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:12:9-15:40
+MERGED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:12:9-15:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:35:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:14:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:18.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\a7cc4eb4ea872e0a137f636ff5499755\firebase-auth-18.0.0\AndroidManifest.xml:37:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:20.2.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\80a8317e57e86ea9753b00cf03d6c1b3\jetified-firebase-firestore-20.2.0\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\679a579fb7ecf5dbdf294cebebde9e32\firebase-database-19.1.0\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\bcdf615694a8182e986fae1018adaadc\firebase-storage-19.1.0\AndroidManifest.xml:34:17-107
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\40730a7473c3504c5fa56519698fea56\jetified-play-services-auth-16.0.1\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\951b5e7f354daaaf8db57d3e12181016\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:17:9-21:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:19:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:20:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:21:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.1.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\51982bb1efd8b2a3c594646c0d02688c\firebase-common-19.1.0\AndroidManifest.xml:18:13-77
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\sangjin kim\.gradle\caches\transforms-2\files-2.1\28573f39daf86dfd120980829755ad4b\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/botton2"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="감정 일기"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@id/botton3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="diaryClicked"
+        android:drawableLeft="@drawable/note_icon"
+        android:drawablePadding="20dp"
+        android:background="@color/lightYellow"
+        app:layout_constraintVertical_chainStyle="packed"/>
+
+    <Button
+        android:id="@+id/botton3"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_margin="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="일기 알람"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/botton2"
+        app:layout_constraintRight_toRightOf="@id/botton2"
+        app:layout_constraintTop_toBottomOf="@id/botton2"
+        android:onClick="alramClicked"
+        android:drawableLeft="@drawable/ic_alarm"
+        android:drawablePadding="20dp"
+        android:background="@color/lavender"/>
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

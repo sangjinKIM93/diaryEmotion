@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@id/navigation"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/btnLinear">
+    <Button
+        android:id="@+id/statisticBtn1"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:textStyle="bold"
+        android:background="@drawable/button_style2"
+        android:text="소분류" />
+
+    <Button
+        android:id="@+id/statisticBtn2"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/button_style2"
+        android:textStyle="bold"
+        android:text="대분류" />
+
+    <Button
+        android:id="@+id/statisticBtn3"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/button_style2"
+        android:textStyle="bold"
+        android:text="요일별" />
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/statistic_frame1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnLinear">
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/activityTitle1"-->
+        <!--            android:layout_width="match_parent"-->
+
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="감정(소분류) 통계"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:textSize="20dp" />-->
+        <ImageView
+            android:id="@+id/chart_replacement"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="90dp"
+            android:src="@drawable/chart2_img"/>
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/bigPieChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"/>
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"/>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/stacked_barchart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"/>
+
+
+    </FrameLayout>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="?android:attr/windowBackground"
+        app:menu="@menu/bottom_nav_menu" />
+
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="380dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/z_exit"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="2dp"
+        android:id="@+id/exitBtn"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="감정을 선택해주세요."
+        android:textSize="15dp" />
+
+
+    <Button
+        android:id="@+id/hurt"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:text="상처"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/jealous"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:layout_marginTop="10dp"
+        android:text="질투하는"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/betrayed"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:text="배신당한"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/abandoned"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:text="버려진"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/shocked"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:text="충격 받은"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/victimized"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:layout_marginTop="10dp"
+        android:text="희생된"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/aggrieved"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:layout_marginTop="10dp"
+        android:text="억울한"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>

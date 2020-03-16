@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="감정 : "
+            android:textSize="15dp"/>
+
+        <EditText
+            android:id="@+id/emtionSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/titleDialog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/contentDialog"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+
+
+    <Button
+        android:id="@+id/modification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="수정하기"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

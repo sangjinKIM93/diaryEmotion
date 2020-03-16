@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <Button-->
+    <!--        android:id="@+id/listBtn"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="목록"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/saveBtn"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/saveBtn"-->
+    <!--        app:layout_constraintHorizontal_chainStyle="spread_inside"-->
+    <!--        app:layout_constraintRight_toLeftOf="@+id/saveBtn"/>-->
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+
+        android:background="@drawable/ic_save"
+        android:onClick="saveBtnClicked"
+        app:layout_constraintBottom_toTopOf="@id/angryBtn"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSecret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="비공개"
+        app:layout_constraintHorizontal_bias="0.98"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintTop_toBottomOf="@id/content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!--    <Spinner-->
+    <!--        android:id="@+id/spinner_field"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:spinnerMode="dropdown"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/edit"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_chainStyle="packed"-->
+    <!--        app:layout_constraintVertical_bias="0.65"-->
+    <!--        />-->
+    <TextView
+        android:id="@+id/tv_emotion_write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:text="감정을 선택해주세요."
+        android:textStyle="bold"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@id/angryBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/angryBtn"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="3dp"
+        android:text="분노"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/edit"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/sadBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.51"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:background="@drawable/button_style2"/>
+
+    <Button
+        android:id="@+id/sadBtn"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:text="슬픔"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/angryBtn"
+        app:layout_constraintLeft_toRightOf="@id/angryBtn"
+        app:layout_constraintRight_toLeftOf="@id/anxiousBtn"
+        app:layout_constraintTop_toTopOf="@id/angryBtn"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:background="@drawable/button_style2"/>
+
+    <Button
+        android:id="@+id/anxiousBtn"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:text="불안"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/angryBtn"
+        app:layout_constraintLeft_toRightOf="@id/sadBtn"
+        app:layout_constraintRight_toLeftOf="@id/hurtBtn"
+        app:layout_constraintTop_toTopOf="@id/angryBtn"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:background="@drawable/button_style2"/>
+
+    <Button
+        android:id="@+id/hurtBtn"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:text="상처"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/angryBtn"
+        app:layout_constraintLeft_toRightOf="@id/anxiousBtn"
+        app:layout_constraintRight_toLeftOf="@id/embarrassedBtn"
+        app:layout_constraintTop_toTopOf="@id/angryBtn"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:background="@drawable/button_style2"/>
+
+    <Button
+        android:id="@+id/embarrassedBtn"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:text="당황"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/angryBtn"
+        app:layout_constraintLeft_toRightOf="@id/hurtBtn"
+        app:layout_constraintRight_toLeftOf="@id/happyBtn"
+        app:layout_constraintTop_toTopOf="@id/angryBtn"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:background="@drawable/button_style2"/>
+
+    <Button
+        android:id="@+id/happyBtn"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="기쁨"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/angryBtn"
+        app:layout_constraintLeft_toRightOf="@id/embarrassedBtn"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/angryBtn"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:background="@drawable/button_style2"/>
+
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:hint="노트 제목"
+        android:inputType="textMultiLine"
+        android:maxLength="30"
+        app:layout_constraintBottom_toTopOf="@+id/content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/angryBtn" />
+
+
+
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="top"
+        android:hint="내용을 입력하세요."
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toTopOf="@id/iv_attachment"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/content"
+        android:background="@drawable/z_edge"
+        android:linksClickable="true"
+        android:autoLink="all"
+        android:layout_marginBottom="2dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/iv_attachment"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@drawable/background_text4"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/link"
+        android:scaleType="fitXY"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp"
+        android:visibility="gone"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

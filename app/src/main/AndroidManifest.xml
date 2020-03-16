@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emotiondiary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="감정 일기"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.example.emotiondiary.RegisterNew"></activity>
+        <activity android:name="com.example.emotiondiary.LoginActivity" />
+        <activity android:name="com.example.emotiondiary.MainActivity" />
+        <activity android:name="com.example.emotiondiary.RegisterActivity" />
+        <activity android:name="com.example.emotiondiary.MusicListActivity" />
+        <activity android:name="com.example.emotiondiary.MusicPlayerActivity" />
+        <activity android:name="com.example.emotiondiary.DiaryListActivity" />
+        <activity android:name="com.example.emotiondiary.DiaryWriteActivity" />
+        <activity android:name="com.example.emotiondiary.AlarmActivity" />
+        <activity
+            android:name="com.example.emotiondiary.MemoWriteActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.example.emotiondiary.MemoListActivity" />
+        <activity android:name="com.example.emotiondiary.MusicListRecyclerActivity" />
+        <activity android:name="com.example.emotiondiary.ActivityOne" />
+        <activity android:name="com.example.emotiondiary.ActivityTwo" />
+        <activity android:name="com.example.emotiondiary.LoadingActivity" />
+        <activity android:name="com.example.emotiondiary.PopupActivity" />
+        <activity android:name="com.example.emotiondiary.OtherMemoActivity" />
+        <activity android:name="com.example.emotiondiary.SplashActivity"></activity>
+        <activity android:name="com.example.emotiondiary.NewsActivity" />
+
+        <receiver android:name="com.example.emotiondiary.AlarmReceiver" />
+        <receiver android:name="com.example.emotiondiary.DeviceBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.example.emotiondiary.NewAlarmActivity" />
+        <activity
+            android:name="com.example.emotiondiary.EmotionPopupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="com.example.emotiondiary.SadPopupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="com.example.emotiondiary.HurtPopupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="com.example.emotiondiary.AnxiousPopupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="com.example.emotiondiary.HappyPopupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyDialog" />
+        <activity
+            android:name="com.example.emotiondiary.EmbarrassedPopupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyDialog" />
+        <activity android:name="com.example.emotiondiary.MyInfoActivity" />
+        <activity android:name="com.example.emotiondiary.FirebaseLoginActivity"></activity>
+        <activity android:name="com.example.emotiondiary.ReadNewsActivity" />
+        <activity android:name="com.example.emotiondiary.FireStoreTest"></activity>
+        <activity android:name="com.example.emotiondiary.RealtimeTest"></activity>
+        <activity android:name="com.example.emotiondiary.LoginNew">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

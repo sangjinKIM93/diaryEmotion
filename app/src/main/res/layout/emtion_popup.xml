@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="380dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <Button
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/z_exit"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="2dp"
+        android:id="@+id/exitBtn"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="감정을 선택해주세요."
+        android:textSize="15dp" />
+
+
+    <Button
+        android:id="@+id/justangryBtn"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:text="분노"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/grumpyBtn"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:layout_marginTop="10dp"
+        android:text="툴툴대는"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/frustratedBtn"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:text="좌절한"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/annoyedBtn"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:text="짜증내는"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/defensiveBtn"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:text="방어적인"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/offendedBtn"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:layout_marginTop="10dp"
+        android:text="노여워하는"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/irritatedBtn"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:background="@color/whiteSmoke"
+        android:layout_marginTop="10dp"
+        android:text="성가신"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>

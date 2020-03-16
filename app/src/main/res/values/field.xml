@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerArray">
+        <item>감정을 선택하세요.</item>
+        <item>기쁨</item>
+        <item>상처</item>
+        <item>슬픔</item>
+    </string-array>
+
+</resources>
