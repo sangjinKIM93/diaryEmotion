@@ -17,23 +17,27 @@
 # 주요 기능
 
 >### 명상 음악
->>음악 재생(mediaPlayer)  
->>애니메이션(animation)  
+>- 음악 재생(mediaPlayer)  
+>- 애니메이션(animation)  
 
 
 >### 감정 메모
->>일기 추가, 수정, 삭제(RecyclerView, Firebase real-time DB)  
->>이미지 추가  
->>감정 통계(MpAndroidChart)  
->>감정 검색(Firebase real-time DB)  
+>- 일기 추가, 수정, 삭제(RecyclerView, Firebase real-time DB)  
+>- 이미지 추가  
+>- 감정 통계(MpAndroidChart)  
+>- 감정 검색(Firebase real-time DB)  
 
 
 >### 명상 알람
->>notification 알림(alarmManager, notification Manager)  
+>- notification 알림(alarmManager, notification Manager)  
 
 
 >### 마음 일보
->>DOM방식으로 '정신의학신문' rss 주소를 파싱   
+>- DOM방식으로 '정신의학신문' rss 주소를 파싱   
 
 
+<br><br>
+    
+# 사용 기술
+java, android
 
